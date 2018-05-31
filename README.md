@@ -18,7 +18,7 @@ The Chat-Server server can be hosted on any machine, including your own computer
 
 First, clone the code repository to the server machine by executing: 
 ```
-git clone https://code.harvard.edu/cdm683/Chat-Server.git
+git clone git@github.com:bbrzycki/Chat-Server.git
 ```
 
 All of the important source files are located in the home directory of `Chat-Server`. HTML documentation is located within `javadoc-documentation`. To view complete documentation in a web browser, open `index.html`!
@@ -38,7 +38,7 @@ will open up the Client-Server server to listen on the `[port #]` specified.
 ### Set up and initialize client
 First, clone the code repository to the client machine by again executing: 
 ```
-git clone https://code.harvard.edu/cdm683/Chat-Server.git
+git clone git@github.com:bbrzycki/Chat-Server.git
 ```
 
 To compile source files, execute:
